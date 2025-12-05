@@ -8,17 +8,29 @@
         border-radius: 6px;
         overflow: hidden;
         box-sizing: border-box;
+        text-decoration: none;
+        color: inherit;
 }
+
+.card:has(.give) {
+  background: var(--card-give-bg);
+}
+
+.card:has(.get) {
+  background: var(--card-get-bg);
+}
+
 .give-get-field-01 {
-        font-size: 1.25rem;
+        font-size: 1.15rem;
         margin-top: 0;    
         margin-bottom: 8px;
-        line-height: 1.375rem;    
+        line-height: 1.375rem;
+        text-transform: uppercase;    
 }
 .give-get-field-02,
 .give-get-field-03,
 .give-get-field-04  {
-        font-size: .8rem;
+        font-size: .9rem;
         margin-top: 6px;    
         margin-bottom: 0;
         line-height: 1rem;    

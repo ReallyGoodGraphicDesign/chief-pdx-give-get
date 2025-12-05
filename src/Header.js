@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 import "./Header.css";
-import logo from "./assets/logo.svg";
+import logo from "./assets/logo_chief_pdx.png";
 
 const Header = ({ searchTerm, setSearchTerm }) => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -34,7 +34,7 @@ return (
                         <button className="logo-button"
                         onClick={() =>
                         window.scrollTo({ top: 0, behavior: "smooth" })}>
-                                <img src={logo} alt="Logo" />
+                                <img src={logo} alt="Chief PDX Logo" />
                         </button>
                 </div>
                 <div className="header-right">
@@ -67,7 +67,7 @@ return (
                         </div>
                         <div className="email-button-wrapper">
                                 <a className="button email-button"
-                                href="mailto:jdullack@gmail.com" target="_blank" rel="noopener noreferrer">
+                                href="mailto:vdullack@gmail.com" target="_blank" rel="noopener noreferrer">
                                         <i className="bi bi-envelope"></i>
                                 </a>
                         </div>

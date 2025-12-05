@@ -31,22 +31,22 @@ button:active, .button:active {
         --funtime-input-bg: var(--menu-modal-search-input-bg);
         --input-and-button-bg: none;
 
-        --button-bg: rgba(var(--jason-5-alpha),.15);
-        --button-bg-hover: rgba(var(--jason-3-alpha),.4);
-        --button-bg-active: rgba(var(--jason-3-alpha),.6);
+        --button-bg: rgba(var(--chief-pdx-5-alpha),.15);
+        --button-bg-hover: rgba(var(--chief-pdx-2-alpha),.35);
+        --button-bg-active: rgba(var(--chief-pdx-2-alpha),.65);
         --button-text: rgba(255,255,255,.5);        
         --button-text-hover: rgba(255,255,255,.75);        
         --button-text-active: rgba(255,255,255,1);        
         --text-color: rgba(255,255,255,.75);
         --body-bg:
                 linear-gradient(
-                rgba(var(--jason-1-alpha),.1),
-                rgba(var(--jason-1-alpha),.1)), 
+                rgba(var(--chief-pdx-1-alpha),.1),
+                rgba(var(--chief-pdx-1-alpha),.1)), 
                 rgb(35, 35, 35);
         --header-footer-bg: 
                 linear-gradient(
-                rgba(var(--jason-1-alpha),.1),
-                rgba(var(--jason-1-alpha),.1)), 
+                rgba(var(--chief-pdx-1-alpha),.1),
+                rgba(var(--chief-pdx-1-alpha),.1)), 
                 rgb(25, 25, 25);
         --header-footer-inner-bg: none;
         --header-footer-inner-left-bg: none;
@@ -62,25 +62,25 @@ button:active, .button:active {
 
         --card-bg: 
                 linear-gradient(
-                rgba(var(--jason-1-alpha),.1),
-                rgba(var(--jason-1-alpha),.1)), 
+                rgba(var(--chief-pdx-1-alpha),.1),
+                rgba(var(--chief-pdx-1-alpha),.1)), 
                 rgb(50, 50, 50);
-        --card-image-bg: 
-                linear-gradient(90deg,
-                rgba(var(--jason-2-alpha),.9),
-                rgba(var(--jason-2-alpha),.9)), 
-                rgb(255, 255, 255);
-        --card-image-img-bg: 
+        --card-give-bg:                 
                 linear-gradient(
-                rgba(var(--jason-2-alpha),0),
-                rgba(var(--jason-2-alpha),0)), 
-                rgb(255, 255, 255);
+                rgba(var(--chief-pdx-4-alpha),.25),
+                rgba(var(--chief-pdx-4-alpha),.25)), 
+                rgb(50, 50, 50);
+        --card-get-bg:
+                linear-gradient(
+                rgba(var(--chief-pdx-3-alpha),.25),
+                rgba(var(--chief-pdx-3-alpha),.25)), 
+                rgb(50, 50, 50);
         --card-text-bg: none;
         --logo-button-bg: none;
         --logo-button-bg-hover: 
                 linear-gradient(90deg,
-                rgba(var(--jason-2-alpha),.15),
-                rgba(var(--jason-2-alpha),.15)), 
+                rgba(var(--chief-pdx-2-alpha),.15),
+                rgba(var(--chief-pdx-2-alpha),.15)), 
                 rgb(52, 52, 52);
 
 
@@ -130,8 +130,8 @@ button:active, .button:active {
         --text-color: rgb(92, 43, 67);
         --body-bg: 
                 linear-gradient(
-                rgba(var(--jason-1-alpha),.1),
-                rgba(var(--jason-1-alpha),.1)), 
+                rgba(var(--chief-pdx-1-alpha),.1),
+                rgba(var(--chief-pdx-1-alpha),.1)), 
                 rgb(40, 40, 40);
         --header-footer-bg: red;
         --header-footer-inner-bg: pink;
@@ -184,22 +184,19 @@ button:active, .button:active {
         --image-modal-keywords-bg: lightgreen;
 }
 
-
-
-
 /* #region MASTER_COLORS */       
 :root {
         /* COPY THESE FROM .ASE ONLY */
-        --jason-1: rgb(110,105,90);
-        --jason-1-alpha: 110,105,90;
-        --jason-2: rgb(201,187,80);
-        --jason-2-alpha: 201,187,80;
-        --jason-3: rgb(204,98,38);
-        --jason-3-alpha: 204,98,38;
-        --jason-4: rgb(78,131,169);
-        --jason-4-alpha: 78,131,169;
-        --jason-5: rgb(203,193,174);
-        --jason-5-alpha: 203,193,174;
+        --chief-pdx-1: rgb(110,105,90);
+        --chief-pdx-1-alpha: 110,105,90;
+        --chief-pdx-2: rgb(167, 39, 30);
+        --chief-pdx-2-alpha: 167, 39, 30;
+        --chief-pdx-3: rgb(71, 123, 54);
+        --chief-pdx-3-alpha: 71, 123, 54;
+        --chief-pdx-4: rgb(200, 195, 42);
+        --chief-pdx-4-alpha: 200, 195, 42;
+        --chief-pdx-5: rgb(203,193,174);
+        --chief-pdx-5-alpha: 203,193,174;
 }
   /* #endregion MASTER_COLORS */       
 /* #endregion COLORS */       
@@ -277,8 +274,8 @@ h4 {
         --splash-max-width-tablet: 90vw;
         --splash-max-width-cell: 90vw;
 }
-:root[data-theme-banner='chief-pdx-logo'] {
-        --banner_url: url(assets/chief-pdx-logo.png);     
+:root[data-theme-banner='chief_pdx'] {
+        --banner_url: url(assets/logo_chief_pdx.png);     
         --banner_height: var(--banner_height_master);              
         --banner_position: var(--banner_position_master);
 }

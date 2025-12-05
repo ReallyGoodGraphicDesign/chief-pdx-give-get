@@ -1,13 +1,12 @@
 import "./App.css";
 import Header from "./Header";
-// import ResumeText from "./ResumeText"; 
-import Card from "./Card";
+import CardGive from "./CardGive";
 import CardGet from "./CardGet";
 import ImageModal from "./ImageModal";
 import { useEffect, useState } from "react";
 
  const BANNERS = [
-   "chief-pdx-logo"
+   "logo_chief_pdx"
 ];
 
 const funtime = "chief";
@@ -275,11 +274,11 @@ useEffect(() => {
     <div className="give-get-wrapper">
       {/* LEFT: GIVE cards */}
       <section className="give-column">
-        <h2 className="column-title">Gives:</h2>
+        <h2 className="column-title">GIVES</h2>
         {filteredCardData.length > 0 ? (
           <div className="card-grid">
             {filteredCardData.map((card, idx) => (
-              <Card
+              <CardGive
                 key={idx}
                 give_field_01={card.give_field_01}
                 give_field_02={card.give_field_02}
@@ -297,7 +296,7 @@ useEffect(() => {
 
       {/* RIGHT: GET cards */}
       <section className="get-column">
-        <h2 className="column-title">Gets:</h2>
+        <h2 className="column-title">GETS</h2>
         {filteredGetCardData.length > 0 ? (
           <div className="card-grid">
             {filteredGetCardData.map((card, idx) => (

@@ -245,7 +245,7 @@ body.menu-open main {
 }
 .card-grid {
         display: grid;
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(2, 1fr);
         gap: 8px;
         padding-bottom: 20px;
 }
@@ -263,7 +263,7 @@ body.menu-open main {
 /* Wrapper for GIVE (left) and GET (right) columns */
 .give-get-wrapper {
         display: flex;
-        gap: 24px;
+        gap: 8px;
         align-items: flex-start;
         width: 100%;
         box-sizing: border-box;
@@ -277,9 +277,16 @@ body.menu-open main {
         min-width: 0;
 }
 
+.give-column,
+.get-column {
+        flex: 1;
+        min-width: 0;
+}
+
+
 /* Titles above each column */
 .column-title {
-        margin: -12px 0 12px 0;
+        margin: -12px 0 11px 0;
         font-size: 2rem;
 }
 
