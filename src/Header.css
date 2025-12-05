@@ -20,7 +20,7 @@
         font-size: 1.25rem;
 }
 .header-left {
-        opacity: .65;
+        opacity: 1;
         background: var(--header-left-bg);
         flex: 1 1 100%;
         display: flex;
@@ -31,21 +31,24 @@
         gap: 3rem;
         margin: 0;
         vertical-align: middle;
-        padding: 8px 0 6px 8px;
+        padding: 0 0 0 7px;
 }
 .logo-button {
+        opacity: .5;
         background: var(--logo-button-bg);
         border: none;
         padding: 0;
         margin: 0;
+        transition: opacity .4s ease;
 }
 .logo-button:hover {
+        opacity: 1;
         background: none !important;
         filter: saturate(100%);
 }
 .logo-button img {
         display: block;
-        height: 36px;
+        height: 34px;
         width: auto;
         margin: 0;
         padding: 0;
@@ -68,7 +71,7 @@
         align-items: center;
         box-sizing: border-box;
         padding: 0 0 0 0;
-        margin: 0 8px 0 0;
+        margin: 6px 8px 6px 0;
         gap: 15rem;
         width: 0px;  
 }

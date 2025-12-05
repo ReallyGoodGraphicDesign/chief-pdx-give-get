@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 import "./Header.css";
-import logo from "./assets/logo_chief_pdx.png";
+import logo from "./assets/logo_chief_pdx_1_line.png";
 
 const Header = ({ searchTerm, setSearchTerm }) => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);

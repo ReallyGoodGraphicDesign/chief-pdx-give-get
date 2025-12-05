@@ -277,17 +277,12 @@ body.menu-open main {
         min-width: 0;
 }
 
-.give-column,
-.get-column {
-        flex: 1;
-        min-width: 0;
-}
-
-
 /* Titles above each column */
 .column-title {
+        opacity: .75;
         margin: -12px 0 11px 0;
-        font-size: 2rem;
+        font-size: 1.75rem;
+        font-weight: 300;
 }
 
 /* Stack columns on small screens */

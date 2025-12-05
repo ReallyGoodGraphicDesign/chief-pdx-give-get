@@ -6,7 +6,7 @@ import ImageModal from "./ImageModal";
 import { useEffect, useState } from "react";
 
  const BANNERS = [
-   "logo_chief_pdx"
+   "chief_pdx"
 ];
 
 const funtime = "chief";

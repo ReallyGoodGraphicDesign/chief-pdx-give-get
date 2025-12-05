@@ -31,13 +31,13 @@ button:active, .button:active {
         --funtime-input-bg: var(--menu-modal-search-input-bg);
         --input-and-button-bg: none;
 
-        --button-bg: rgba(var(--chief-pdx-5-alpha),.15);
-        --button-bg-hover: rgba(var(--chief-pdx-2-alpha),.35);
-        --button-bg-active: rgba(var(--chief-pdx-2-alpha),.65);
+        --button-bg: rgba(var(--chief-pdx-1-alpha),.15);
+        --button-bg-hover: rgba(var(--chief-pdx-5-alpha),.25);
+        --button-bg-active: rgba(var(--chief-pdx-5-alpha),.55);
         --button-text: rgba(255,255,255,.5);        
         --button-text-hover: rgba(255,255,255,.75);        
         --button-text-active: rgba(255,255,255,1);        
-        --text-color: rgba(255,255,255,.75);
+        --text-color: rgba(255,255,255,.65);
         --body-bg:
                 linear-gradient(
                 rgba(var(--chief-pdx-1-alpha),.1),
@@ -67,13 +67,13 @@ button:active, .button:active {
                 rgb(50, 50, 50);
         --card-give-bg:                 
                 linear-gradient(
-                rgba(var(--chief-pdx-4-alpha),.25),
-                rgba(var(--chief-pdx-4-alpha),.25)), 
+                rgba(var(--chief-pdx-4-alpha),.1),
+                rgba(var(--chief-pdx-4-alpha),.1)), 
                 rgb(50, 50, 50);
         --card-get-bg:
                 linear-gradient(
-                rgba(var(--chief-pdx-3-alpha),.25),
-                rgba(var(--chief-pdx-3-alpha),.25)), 
+                rgba(var(--chief-pdx-3-alpha),.1),
+                rgba(var(--chief-pdx-3-alpha),.1)), 
                 rgb(50, 50, 50);
         --card-text-bg: none;
         --logo-button-bg: none;
@@ -195,8 +195,8 @@ button:active, .button:active {
         --chief-pdx-3-alpha: 71, 123, 54;
         --chief-pdx-4: rgb(200, 195, 42);
         --chief-pdx-4-alpha: 200, 195, 42;
-        --chief-pdx-5: rgb(203,193,174);
-        --chief-pdx-5-alpha: 203,193,174;
+        --chief-pdx-5: rgb(38, 139, 207);
+        --chief-pdx-5-alpha: 38, 139, 207;
 }
   /* #endregion MASTER_COLORS */       
 /* #endregion COLORS */       
