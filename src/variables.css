@@ -271,8 +271,8 @@ h4 {
         --banner_height_master-cell: calc(var(--splash-max-width-cell) * var(--crop-master));  
         --crop-master: calc(.75 * 1);
         --splash-max-width: 600px;
-        --splash-max-width-tablet: 90vw;
-        --splash-max-width-cell: 90vw;
+        --splash-max-width-tablet: 100vw;
+        --splash-max-width-cell: 100vw;
 }
 :root[data-theme-banner='chief_pdx'] {
         --banner_url: url(assets/logo_chief_pdx.png);     

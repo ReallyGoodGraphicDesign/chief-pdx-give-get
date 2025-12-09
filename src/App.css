@@ -12,7 +12,7 @@ html, body, #root {
 .splash {
         background: var(--splash-bg);
         background-size: cover; 
-        background-position: calc(50% + 0px) calc(50% + 0px);
+        background-position: center top;
         background-repeat: no-repeat;
         max-width: var(--splash-max-width);
         height: var(--splash-max-width);
@@ -26,13 +26,51 @@ html, body, #root {
 .splash {
         opacity: 1;
         max-width: var(--splash-max-width-tablet);
+        height: var(--splash-max-width-tablet);
+        margin: 0px auto;
+        border: 0;
+        border-radius: 0;
 }
 }
 @media (max-width: 600px) {
 .splash {
         opacity: 1;
         max-width: var(--splash-max-width-cell);
+        height: var(--splash-max-width-cell);
+        margin: 0px auto;
+        border: 0;
+        border-radius: 0;
 }
+}
+:root {
+        --splash-logo-container-width: 270px;
+        --splash-HGG-container-width: 500px;
+        --splash-rose-container-width: 200px;
+}
+.logo-container {
+        opacity: .6;
+        margin: -7px auto;
+        width: var(--splash-logo-container-width);
+}
+.logo-container img {
+        width: var(--splash-logo-container-width);
+}
+.holiday-give-get-container {
+        opacity: .75;
+        margin: -20px auto;
+        width: var(--splash-HGG-container-width);
+}
+.holiday-give-get-container img {
+        width: var(--splash-HGG-container-width);
+}
+.rose-container {
+        opacity: 1;
+        margin: -20px auto;
+        width: var(--splash-rose-container-width);
+}
+.rose-container img {
+        width: var(--splash-rose-container-width);
+        rotate: 15deg;
 }
 .splash h3 {
         opacity: .85;
@@ -50,89 +88,13 @@ html, body, #root {
         opacity: 1;
 }
 }
-.logo-carousel-wrapper {
-        opacity: .65;
-        display: block;
-        background-color: var(--logo-carousel-wrapper-bg);
-        width: 60%;
-        padding: 0;
-        height: var(--banner_height_master);
-        margin: 0 auto;
-}
-@media (min-width: 601px) and (max-width: 1024px) {
-.logo-carousel-wrapper {
-        opacity: .65;
-        height: var(--banner_height_master-tablet);
-}
-}
-@media (max-width: 600px) {
-.logo-carousel-wrapper {
-        opacity: .65;
-        height: var(--banner_height_master-cell);
-}
-}
-.logo-carousel-image {
-        background: var(--logo-carousel-image-bg); 
-        background-image: var(--banner_url);
-        height: var(--banner_height_master);
-        background-position: var(--banner_position);
-        background-repeat: no-repeat;
-        background-size: 100%;
-        flex: none;
-        display: block;
-}
-@media (min-width: 601px) and (max-width: 1024px) {
-.logo-carousel-image {
-        opacity: 1;
-        height: var(--banner_height_master-tablet);
-}
-}
-@media (max-width: 600px) {
-.logo-carousel-image {
-        opacity: 1;
-        height: var(--banner_height_master-cell);
-}
-}
-.logo-carousel-image:hover {
-        background: var(--logo-carousel-image-bg); 
-        background-image: var(--banner_url);
-        height: var(--banner_height_master);
-        background-position: var(--banner_position);
-        background-repeat: no-repeat;
-        background-size: 100%;
-        flex: none;
-        display: block;
-}
-@media (min-width: 601px) and (max-width: 1024px) {
-.logo-carousel-image:hover {
-        opacity: 1;
-        height: var(--banner_height_master-tablet);
-}
-}
-@media (max-width: 600px) {
-.logo-carousel-image:hover {
-        opacity: 1;
-        height: var(--banner_height_master-cell);
-}
-}
-.logo-carousel-button {
-        appearance: none;
-        -webkit-appearance: none;
-        border: 0;
-        padding: 0;
-        margin: 0;
-        border-radius: 0;
-        width: 100%;
-        /* Height & background are already defined on .logo carousel */
-        cursor: pointer;/*
-        background-color: transparent;  preserve the background from .hero-image-carousel */
-}
+
 .funtime-all {
         background: var(--funtime-all-bg);
         border: none;
-        width: 100%;
+        width: 83%;
         margin: auto;
-        padding: 240px 113px 0 113px;
+        padding: 40px 0;
         box-sizing: border-box;
         font-size: 16px;
 }

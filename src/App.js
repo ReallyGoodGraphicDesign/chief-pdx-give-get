@@ -3,6 +3,9 @@ import Header from "./Header";
 import CardGive from "./CardGive";
 import CardGet from "./CardGet";
 import ImageModal from "./ImageModal";
+import logo from "./assets/logo_chief_pdx.png";
+import holiday_give_get from "./assets/holiday_give_get.png";
+import rose from "./assets/rose.png";
 import { useEffect, useState } from "react";
 
 // const BANNERS = [
@@ -236,6 +239,12 @@ useEffect(() => {
   if (!authed) {
     return (
       <div className="splash">
+              <div className="logo-container">
+                <img src={logo} alt="Chief PDX Logo" /> 
+              </div>
+              <div className="holiday-give-get-container">
+                <img src={holiday_give_get} alt="Holiday Give & Get" />
+              </div>
          <div className="funtime-all"> 
         <h3>Password</h3>
         <form className="funtime-input-and-button"
@@ -251,6 +260,9 @@ useEffect(() => {
         </button> )}
         </form>
         </div>        
+              <div className="rose-container">
+                <img src={rose} alt="Rose" />
+              </div>
       </div>
     );
   }
