@@ -45,10 +45,10 @@ html, body, #root {
 :root {
         --splash-logo-container-width: 270px;
         --splash-HGG-container-width: 500px;
-        --splash-rose-container-width: 200px;
+        --splash-rose-container-width: 230px;
 }
 .logo-container {
-        opacity: .6;
+        opacity: .5;
         margin: -7px auto;
         width: var(--splash-logo-container-width);
 }
@@ -65,12 +65,12 @@ html, body, #root {
 }
 .rose-container {
         opacity: 1;
-        margin: -20px auto;
+        margin: -36px 25%;
         width: var(--splash-rose-container-width);
 }
 .rose-container img {
         width: var(--splash-rose-container-width);
-        rotate: 15deg;
+        rotate: 32deg;
 }
 .splash h3 {
         opacity: .85;
