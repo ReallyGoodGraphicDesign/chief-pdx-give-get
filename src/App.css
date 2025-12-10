@@ -62,7 +62,7 @@ html, body, #root {
 @media (max-width: 600px) {
 .logo-container {
         opacity: .6;
-        margin: 0 auto;
+        background-position: calc(50% + 0px) calc(50% - 10px);
 }
 }
 .hgg-container {
@@ -79,7 +79,7 @@ html, body, #root {
 @media (max-width: 600px) {
 .hgg-container {
         opacity: 1;
-        margin: -10px auto;
+        margin: -20px auto;
 }
 }
 .hgg-container h2 {
@@ -119,7 +119,7 @@ html, body, #root {
 @media (max-width: 600px) {
 .funtime-all {
         opacity: 1;
-        margin: 65px auto;
+        margin: 55px auto;
         max-width: 90vw;
 }
 }
@@ -217,11 +217,13 @@ html, body, #root {
 @media (max-width: 600px) {
 .rose-container {
         opacity: 1;
+        margin: -35px calc(50% - 130px);
 }
 }
 @media (max-width: 600px) {
 .rose-container img {
         opacity: 1;
+        width: 200px;
 }
 }
 .menu-modal-input-reset:has(.funtime-button.hidden) {
