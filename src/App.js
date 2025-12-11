@@ -240,7 +240,7 @@ useEffect(() => {
               <div className="logo-container">
               </div>
               <div className="hgg-container">
-                <h2>H9OLIDAY GIVES & GETS</h2>
+                <h2>HOLIDAY GIVES & GETS</h2>
                 <h2>HOLIDAY GIVES</h2>
                 <h2>& GETS</h2>
               </div>
